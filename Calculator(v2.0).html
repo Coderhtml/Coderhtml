@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <link href="css/CalcuV2.css" rel="stylesheet">
+	<head>
+		<title>Calculator(v2.0)</title>
+	</head>
+	<body>
+		<div class="container">
+			<input type="text" id="history" value=""><br>
+			<input type="text" id="display" value="">
+			<div class="buttons">
+				<input type="button" class="ac" id="AC-btn" value="AC" onclick="ac()">
+				<input type="button" class="backspace" id="del-btn" value="&#8592" onclick="deletebtn()">
+				<input type="button" class="percent" id="percent-btn" value="%" onclick="myfunction('%')">
+				<input type="button" class="plus" id="plus-btn" value="+" onclick="myfunction('+')"><br>
+
+                <input type="button" class="n9" id="btn-9" value="9" onclick="myfunction('9')">
+                <input type="button" class="n8" id="btn-8" value="8" onclick="myfunction('8')">
+                <input type="button" class="n7" id="btn-7" value="7" onclick="myfunction('7')">
+                <input type="button" class="minus" id="minus-btn" value="-" onclick="myfunction('-')"><br>
+
+                <input type="button" class="n6" id="btn-6" value="6" onclick="myfunction('6')">
+                <input type="button" class="n5" id="btn-5" value="5" onclick="myfunction('5')">
+                <input type="button" class="n4" id="btn-4" value="4" onclick="myfunction('4')">
+                <input type="button" class="multiply" id="multiply-btn" value="x" onclick="myfunction('*')"><br>
+
+                <input type="button" class="n3" id="btn-3" value="3" onclick="myfunction('3')">
+                <input type="button" class="n2" id="btn-2" value="2" onclick="myfunction('2')">
+                <input type="button" class="n1" id="btn-1" value="1" onclick="myfunction('1')">
+                <input type="button" class="divide" id="divide-btn" value="&#247" onclick="myfunction('/')"><br>
+
+                <input type="button" class="n0" id="btn-0" value="0" onclick="myfunction('0')">
+                <input type="button" class="dot" id="dot-btn" value="." onclick="myfunction('.')">
+                <input type="button" class="equals" id="equal-btn" value="=" onclick="equalsbtn()">
+ 
+			</div>
+		</div>
+    
+    <script src="javascript/Calcu.js"></script>
+	</body>
+
+</html>

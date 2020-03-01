@@ -1,0 +1,224 @@
+body {
+	background-image: url(color.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+	border: 2px solid black;
+	background-color: black;
+	height: 380px;
+	width: 350px;
+	margin-left: 500px;
+	margin-top: 130px;
+}
+
+#history {
+	border: 1px solid black;
+	background-color: black;
+	color: gray;
+	text-align: right;
+	height: 40px;
+    font-size: 30px;
+    width: 350px;
+}
+
+#display {
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+	text-align: right;
+	font-size: 40px;
+	width: 350px;
+}
+
+.ac {
+	font-size: 40px;
+	border: 1px solid gray ;
+	border-radius: 100px 100px;
+	margin-left: 10px;
+}
+
+.backspace{
+	font-size: 40px;
+	border: 1px solid gray ;
+	border-radius: 100px 100px;
+	margin-left: 25px;
+	width: 70px;
+}
+
+.percent {
+	font-size: 40px;
+	border: 1px solid gray ;
+	border-radius: 100px 100px;
+	margin-left: 15px;
+}
+
+.plus {
+	font-size: 40px;
+	border: 1px solid black ;
+	background-color: orange;
+	width: 50px;
+	border-radius: 100px 100px;
+	margin-left: 10px;
+}
+
+.n9 {
+    font-size: 40px;
+	border: 1px solid white ;
+	border-radius: 100px 100px;
+	background-color: gray;
+	color: white;
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 50px;
+}
+
+.n8 {
+	 font-size: 40px;
+	border: 1px solid white ;
+	border-radius: 100px 100px;
+	background-color: gray;
+	color: white;
+	margin-left: 45px;
+	margin-top: 10px;
+	width: 50px;
+}
+
+.n7{
+	 font-size: 40px;
+	border: 1px solid white ;
+	border-radius: 100px 100px;
+	background-color: gray;
+	color: white;
+	margin-left: 25px;
+	margin-top: 10px;
+	width: 50px;
+}
+
+.minus {
+	font-size: 40px;
+	border: 1px solid black ;
+	background-color: orange;
+	width: 50px;
+	border-radius: 100px 100px;
+	margin-left: 10px;
+}
+
+.n6 {
+	 font-size: 40px;
+	border: 1px solid white ;
+	border-radius: 100px 100px;
+	background-color: gray;
+	color: white;
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 50px;
+}
+
+.n5 {
+	 font-size: 40px;
+	border: 1px solid white ;
+	border-radius: 100px 100px;
+	background-color: gray;
+	color: white;
+	margin-left: 42px;
+	margin-top: 10px;
+	width: 50px;
+}
+
+.n4 {
+	 font-size: 40px;
+	border: 1px solid white ;
+	border-radius: 100px 100px;
+	background-color: gray;
+	color: white;
+	margin-left: 25px;
+	margin-top: 10px;
+	width: 50px;
+}
+
+.multiply {
+	font-size: 40px;
+	border: 1px solid black ;
+	background-color: orange;
+	width: 50px;
+	border-radius: 100px 100px;
+	margin-left: 10px;
+}
+
+.n3 {
+	 font-size: 40px;
+	border: 1px solid white ;
+	border-radius: 100px 100px;
+	background-color: gray;
+	color: white;
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 50px;
+}
+
+.n2 {
+	 font-size: 40px;
+	border: 1px solid white ;
+	border-radius: 100px 100px;
+	background-color: gray;
+	color: white;
+	margin-left: 40px;
+	margin-top: 10px;
+	width: 50px;
+}
+
+.n1 {
+	 font-size: 40px;
+	border: 1px solid white ;
+	border-radius: 100px 100px;
+	background-color: gray;
+	color: white;
+	margin-left: 25px;
+	margin-top: 10px;
+	width: 50px;
+}
+
+.divide {
+	font-size: 40px;
+	border: 1px solid black ;
+	background-color: orange;
+	width: 50px;
+	border-radius: 100px 100px;
+	margin-left: 10px;
+}
+
+.n0 {
+	 font-size: 40px;
+	border: 1px solid white ;
+	border-radius: 100px 100px;
+	background-color: gray;
+	color: white;
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 160px;
+}
+
+.dot {
+	font-size: 40px;
+	border: 1px solid white;
+	background-color: gray;
+	color: white;
+	width: 50px;
+	border-radius: 100px 100px;
+	margin-left: 7px;
+}
+
+.equals {
+    font-size: 40px;
+	border: 1px solid black ;
+	background-color: orange;
+	width: 60px;
+	border-radius: 100px 100px;
+	margin-left: 10px;
+}
+
+.ac, .backspace, .percent, .plus, .n9, .n8, .n7, .minus, .n6, .n5, .n4, .multiply, .n3, .n2, .n1, .divide, .n0, .dot, .equals:hover {
+	cursor: pointer;
+}
